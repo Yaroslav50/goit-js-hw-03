@@ -1,8 +1,8 @@
 `use strict`;
 
 function slugify(title) {
-  let titleNormalized = title.toLowerCase();
-  let titleArr = titleNormalized.split(' ');
+  let titleNorm = title.toLowerCase();
+  let titleArr = titleNorm.split(' ');
   let slug = titleArr.join('-');
   return slug;
 }
