@@ -1,4 +1,4 @@
-`use strict`;
+'use strict';
 
 function slugify(title) {
   let titleNorm = title.toLowerCase();
